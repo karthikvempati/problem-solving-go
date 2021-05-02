@@ -15,7 +15,7 @@ func main() {
 }
 
 func CheckOrders(dineIn []int, takeOut []int, served []int) {
-	if len(dineIn) == 0 || len(takeOut) = 0{
+	if len(dineIn) == 0 || len(takeOut) == 0 {
 		fmt.Println("Orders served successfully")
 		return
 	}
