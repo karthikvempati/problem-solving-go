@@ -18,7 +18,7 @@ func CreateLinkedList(nums []int) linkedlist.LinkedList {
 
 func PrintLinkedList(l linkedlist.LinkedList) {
 	node := *l.Head
-	for ok := true; ok; ok = !(node.Next != nil) {
+	for ok := true; ok; ok = (node.Next != nil) {
 		fmt.Println(node.Val)
 		node = *node.Next
 	}
