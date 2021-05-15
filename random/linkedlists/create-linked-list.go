@@ -22,4 +22,5 @@ func PrintLinkedList(l linkedlist.LinkedList) {
 		fmt.Println(node.Val)
 		node = *node.Next
 	}
+	fmt.Println(node.Val)
 }
