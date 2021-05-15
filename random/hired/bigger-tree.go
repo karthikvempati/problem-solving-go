@@ -13,7 +13,7 @@ Example Output:
 Left
 */
 
-package solution
+package hired
 
 import "fmt"
 
