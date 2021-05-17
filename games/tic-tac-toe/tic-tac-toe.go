@@ -37,7 +37,9 @@ func MakeMove(i, j int8, board [][]string, player string) ([][]string, bool) {
 		board[i][j] = player
 		moved = true
 		fmt.Println("Player ", player, " move", i, j)
-		PrintBoard(board)
+		if player == "O" {
+			PrintBoard(board)
+		}
 	}
 
 	return board, moved
